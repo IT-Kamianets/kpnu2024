@@ -1,0 +1,58 @@
+[
+  {
+    "studentName": "Олександр Мрачковський",
+    "profileLink": {
+      "gitHub": "https://github.com/MrachkovskyiOleksandr",
+      "linkedIn": "https://www.linkedin.com/in/oleksandr-mrachkovskyi/",
+      "aboutPage": "https://oleksandrmrachkovskyi.itkamianets.com/"
+    }
+  },
+  {
+    "studentName": "Максим Сас",
+    "profileLink": {
+      "gitHub": "https://github.com/maksimkaSAS",
+      "linkedIn": "https://linkedin.com/in/student2",
+      "aboutPage": "https://maksymsas.itkamianets.com/"
+    }
+  },
+  {
+    "studentName": "Роман Столяр",
+    "profileLink": {
+      "gitHub": "https://github.com/romanstoliar",
+      "linkedIn": "https://linkedin.com/in/student3",
+      "aboutPage": "https://romanstoliar.itkamianets.com/"
+    }
+  },
+  {
+    "studentName": "Іван Козловський",
+    "profileLink": {
+      "gitHub": "https://github.com/IvanKozlovky",
+      "linkedIn": "https://linkedin.com/in/student2",
+      "aboutPage": "https://ivankozlovsky.itkamianets.com/"
+    }
+  },
+  {
+    "studentName": "Павло Іжицький",
+    "profileLink": {
+      "gitHub": "https://github.com/izhytskyi",
+      "linkedIn": "https://linkedin.com/in/student3",
+      "aboutPage": "https://pavloizhytskyi.itkamianets.com/"
+    }
+  },
+  {
+    "studentName": "Максим Білоус",
+    "profileLink": {
+      "gitHub": "https://github.com/BilousMaks",
+      "linkedIn": "https://linkedin.com/in/student2",
+      "aboutPage": "https://maksymbilous.itkamianets.com/"
+    }
+  },
+  {
+    "studentName": "Анна Собачинська",
+    "profileLink": {
+      "gitHub": "https://github.com/Sobachynska",
+      "linkedIn": "https://linkedin.com/in/student3",
+      "aboutPage": "https://annasobachynska.itkamianets.com/"
+    }
+  }
+]

@@ -1,13 +1,31 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { CommonModule } from '@angular/common';
+import _projects from '../assets/projects-data.json';
+import _students from '../assets/students-data.json';
+
+interface Projects {
+  projectName: string;
+  projectLink: string;
+  projectDescription: string;
+}
+
+interface Student {
+  studentName: string;
+  profileLink: {
+    gitHub: string;
+    linkedIn: string;
+    aboutPage: string;
+  };
+}
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrls: ['./app.component.scss'],
+  imports: [CommonModule],
 })
 export class AppComponent {
-  title = 'kpnu2024';
+  projects = _projects as Projects[];
+  students = _students as Student[];
 }
