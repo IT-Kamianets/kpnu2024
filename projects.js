@@ -1,4 +1,4 @@
-const projects = [
+const projectsData = [
   {
     "projectName": "TrustyConvert",
     "projectLink": "https://github.com/IT-Kamianets/trustyconvert",
@@ -31,18 +31,18 @@ const projects = [
   }
 ]
 
-console.log(projects)
+console.log(projectsData)
 
 
-function generateHTML(projects) {
+function generateHTML(projectsData) {
   const projectsCont = document.getElementById('project-list');
 
   projects.forEach(project => {
     const div = document.createElement('div');
     div.className = 'project-card';
-    div.innerHTML = `<h3>${project.projectName}</h3>
-                     <p>${project.projectDescription}</p>
-                     <a href="${project.projectLink}" target="_blank">Перейти до проєкту</a>`;
+    div.innerHTML = `<h3>${projectsData.projectName}</h3>
+                     <p>${projectsData.projectDescription}</p>
+                     <a href="${projectsData.projectLink}" target="_blank">Перейти до проєкту</a>`;
 
     projectsCont.appendChild(div);
   });
