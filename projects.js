@@ -33,14 +33,20 @@ const projects = [
 
 console.log(projects)
 
+
 function generateHTML(projects) {
   const projectsCont = document.getElementById('project-list');
 
   projects.forEach(project => {
     const div = document.createElement('div');
     div.className = 'project-card';
-    div.innerHTML = '<h3> ${projects.projectName} </h3>';
+    div.innerHTML = `<h3>${project.projectName}</h3>
+                     <p>${project.projectDescription}</p>
+                     <a href="${project.projectLink}" target="_blank">Перейти до проєкту</a>`;
 
     projectsCont.appendChild(div);
   });
 }
+
+//  Викликаємо функцію для генерації HTML
+generateHTML(projects);
