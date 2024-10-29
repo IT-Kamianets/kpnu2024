@@ -30,3 +30,16 @@ const projects = [
     "projectDescription": "Короткий опис проєкту"
   }
 ]
+
+
+function generateHTML(projects) {
+  const projectsCont = document.getElementById('project-list');
+
+  _projects.forEach(project => {
+    const div = document.createElement('div');
+    div.className = 'project-card';
+    div.innerHTML = '<h3> ${projects.projectName} </h3>';
+
+    projectsCont.appendChild(div);
+  });
+}
