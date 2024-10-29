@@ -31,6 +31,7 @@ const projects = [
   }
 ]
 
+console.log(projects)
 
 function generateHTML(projects) {
   const projectsCont = document.getElementById('project-list');
