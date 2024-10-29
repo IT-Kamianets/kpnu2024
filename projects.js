@@ -35,7 +35,7 @@ const projects = [
 function generateHTML(projects) {
   const projectsCont = document.getElementById('project-list');
 
-  _projects.forEach(project => {
+  projects.forEach(project => {
     const div = document.createElement('div');
     div.className = 'project-card';
     div.innerHTML = '<h3> ${projects.projectName} </h3>';
