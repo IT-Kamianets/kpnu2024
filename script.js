@@ -3,7 +3,7 @@ import _students from './assets/students-data.json';
 
 
 
-const projectsCont = document.getElementsByClassName('project-list');
+const projectsCont = document.getElementById('project-list');
 
 _projects.forEach(project => {
   const div = document.createElement('div');
