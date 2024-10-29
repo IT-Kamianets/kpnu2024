@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Kpnu2024</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.ts"></script>
+</head>
+
+<body>
+  <div class="container">
+    <section class="projects">
+      <h2>Наші проєкти</h2>
+      <div class="project-list">
+        <div class="project-card" *ngFor="let project of projects">
+          <h3>{{ project.projectName }}</h3>
+          <a [href]="project.projectLink" target="_blank">GitHub</a>
+          <div class="project-description">{{ project.projectDescription }}</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="students">
+      <h2>Наші студенти</h2>
+      <div class="student-list">
+        <div class="student-card" *ngFor="let student of students">
+          <h3>{{ student.studentName }}</h3>
+          <div class="links">
+            <a [href]="student.profileLink.gitHub" target="_blank">GitHub</a>
+            <a [href]="student.profileLink.linkedIn" target="_blank">LinkedIn</a>
+            <a [href]="student.profileLink.aboutPage" target="_blank">About</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>
