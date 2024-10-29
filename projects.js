@@ -1,4 +1,4 @@
-[
+const projects = [
   {
     "projectName": "TrustyConvert",
     "projectLink": "https://github.com/IT-Kamianets/trustyconvert",
