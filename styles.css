@@ -30,8 +30,8 @@ h2 {
 .student-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
-  justify-content: space-between;
+  gap: 60px;
+  justify-content: center;
 }
 
 .project-card,
@@ -62,7 +62,8 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 13px;
+  column-gap: 13px;
+  flex-wrap: wrap;
 }
 
 a {

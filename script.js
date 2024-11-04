@@ -95,6 +95,8 @@ const studentsData = [
       gitHub: "https://github.com/izhytskyi",
       aboutPage: "https://pavloizhytskyi.itkamianets.com/",
       telegram: "https://t.me/ixhxtxkxi",
+      linkedIn: "https://www.linkedin.com/in/pavlo-izhytskyi-702469238/",
+      instagram: "https://www.instagram.com/izhytskyi"
     },
   },
   {
@@ -109,7 +111,64 @@ const studentsData = [
     profileLink: {
       gitHub: "https://github.com/Sobachynska",
       aboutPage: "https://annasobachynska.itkamianets.com/",
-      telegram: "https://t.me/a_sobachynska"
+      telegram: "https://t.me/a_sobachynska",
+      linkedIn: "https://www.linkedin.com/in/annasobachynska/",
+      instagram: "https://www.instagram.com/a.sobachynska"
+    },
+  },
+  {
+    studentName: "Юрій Стефура",
+    profileLink: {
+      gitHub: "https://github.com/Stefura",
+      aboutPage: "https://yurastefura.itkamianets.com/",
+      telegram: "https://t.me/aruFesT"
+    },
+  },
+  {
+    studentName: "Ростислав Лискун",
+    profileLink: {
+      gitHub: "https://github.com/RostislavLyskun",
+      aboutPage: "https://rostislavliskun.itkamianets.com/",
+    },
+  },
+  {
+    studentName: "Дмитро Коваленко",
+    profileLink: {
+      gitHub: "https://github.com/1357kov",
+      aboutPage: "https://dmytrokovalenko.itkamianets.com/",
+      telegram: "https://t.me/dmitry_sk_t"
+    },
+  },
+  {
+    studentName: "Юля Сурженко",
+    profileLink: {
+      gitHub: "https://github.com/juliasurzhenko",
+      aboutPage: "https://yuliasurzhenko.itkamianets.com/",
+      telegram: "https://t.me/julliees",
+      linkedIn: "https://www.linkedin.com/in/julia-surzhenko-4679bb22b/"
+    },
+  },
+  {
+    studentName: "Владислав Волошин",
+    profileLink: {
+      gitHub: "https://github.com/VoloshynVl",
+      aboutPage: "https://vladyslavvoloshyn.itkamianets.com/",
+    },
+  },
+  {
+    studentName: "Максим Горецький",
+    profileLink: {
+      gitHub: "https://github.com/s1a6ks",
+      aboutPage: "https://maksgoretsky.itkamianets.com/",
+      telegram: "https://t.me/g0retsky"
+    },
+  },
+  {
+    studentName: "Віктор Княгницький",
+    profileLink: {
+      gitHub: "https://github.com/ViktorKnyagnickiy",
+      aboutPage: "https://viktorknyagnickiy.itkamianets.com/",
+      telegram: "https://t.me/ccutlerr"
     },
   },
 ];
@@ -151,6 +210,11 @@ studentsData.forEach((student) => {
           ${
             "telegram" in student.profileLink
               ? `<a href=${student.profileLink.telegram} target="_blank">Telegram</a>`
+              : ``
+          }
+          ${
+            "instagram" in student.profileLink
+              ? `<a href=${student.profileLink.instagram} target="_blank">Instagram</a>`
               : ``
           }
           </div>`;
