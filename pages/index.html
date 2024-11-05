@@ -1,36 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Kpnu2024</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="img/logo.png" type="image/x-icon" />
-    <link rel="stylesheet" href="styles.css" />
-    <!-- <script type="module" src="script.js"></script> -->
-  </head>
 
-  <body>
-    <header>
-      <div class="logo">
-        <img src="img/logo.png" alt="logo" />
-      </div>
-    </header>
-    <div class="container">
-      <section id="projects" class="projects">
-        <h2>Наші проєкти</h2>
-        <div class="project-list" id="project-list">
-          {% for project in projects %}
-          <div>
-            <h2>{{project.projectName}}</h2>
-          </div>
-          {% endfor %}
-        </div>
-      </section>
+<head>
+  <meta charset="utf-8" />
+  <title>Kpnu2024</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="img/logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="styles.css" />
+  <!-- <script type="module" src="script.js"></script> -->
+</head>
 
-      <section class="students">
-        <h2>Наші студенти</h2>
-        <div class="student-list" id="student-list"></div>
-      </section>
+<body>
+  <header>
+    <div class="logo">
+      <img src="img/logo.png" alt="logo" />
     </div>
-  </body>
+  </header>
+  <div class="container">
+    <section id="projects" class="projects">
+      <h2>Наші проєкти</h2>
+      <div class="project-list" id="project-list">
+        {% for project in projects %}
+        <div class="project-card">
+          <h3>{{project.projectName}}</h3>
+          <div class="project-description">{{project.projectDescription}}</div>
+          <a href="{{project.projectLink}}">GitHub проєкту</a>
+          <a href="{{project.pageLink}}">Сайт проєкту</a>
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="students">
+      <h2>Наші студенти</h2>
+      <div class="student-list" id="student-list">
+        {% for student in students %}
+        <div class="student-card">
+          <h3>{{student.studentName}}</h3>
+          <div class="links">
+            {% if student.profileLink.gitHub %}<a href="{{student.profileLink.gitHub}}">GitHub</a>{% endif %}
+            {% if student.profileLink.aboutPage %}<a href="{{student.profileLink.aboutPage}}">About</a>{% endif %}
+            {% if student.profileLink.linkedIn %}<a href="{{student.profileLink.linkedIn}}">LinkedIn</a>{% endif %}
+            {% if student.profileLink.telegram %}<a href="{{student.profileLink.telegram}}">Telegram</a>{% endif %}
+            {% if student.profileLink.instagram %}<a href="{{student.profileLink.instagram}}">Instagram</a>{% endif %}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+  </div>
+</body>
+
 </html>

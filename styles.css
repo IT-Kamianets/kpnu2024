@@ -58,6 +58,12 @@ h2 {
   color: #2c3e50;
 }
 
+.project-description {
+  font-size: 1rem;
+  color: #7f8c8d;
+  margin: 10px;
+}
+
 .links {
   display: flex;
   flex-direction: row;
@@ -78,8 +84,3 @@ a:hover {
   color: #3498db;
 }
 
-.project-description {
-  font-size: 1rem;
-  color: #7f8c8d;
-  margin: 10px;
-}
