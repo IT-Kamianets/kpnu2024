@@ -1,0 +1,175 @@
+{
+  "projects": [
+    {
+      "projectName": "TrustyConvert",
+      "projectLink": "https://github.com/IT-Kamianets/trustyconvert",
+      "pageLink": "https://trustyconvert.itkamianets.com/",
+      "projectDescription": "Конвертер валют, що використовує безкоштовне API."
+    },
+    {
+      "projectName": "Timer",
+      "projectLink": "https://github.com/IT-Kamianets/timer",
+      "pageLink": "https://timer.itkamianets.com/",
+      "projectDescription": "Короткий опис проєкту"
+    },
+    {
+      "projectName": "WeatherSense",
+      "projectLink": "https://github.com/IT-Kamianets/weathersense",
+      "pageLink": "https://weathersense.itkamianets.com/",
+      "projectDescription": "Короткий опис проєкту"
+    },
+    {
+      "projectName": "TodoList",
+      "projectLink": "https://github.com/IT-Kamianets/todo",
+      "pageLink": "https://todo.itkamianets.com/",
+      "projectDescription": "Короткий опис проєкту"
+    },
+    {
+      "projectName": "CalorieTracker",
+      "projectLink": "https://github.com/IT-Kamianets/calorietracker",
+      "pageLink": "http://calorietracker.itkamianets.com/",
+      "projectDescription": "Короткий опис проєкту"
+    },
+    {
+      "projectName": "HabitTracker",
+      "projectLink": "https://github.com/IT-Kamianets/habittracker",
+      "pageLink": "http://habittracker.itkamianets.com/",
+      "projectDescription": "Короткий опис проєкту"
+    },
+    {
+      "projectName": "RecipiesBook",
+      "projectLink": "https://github.com/IT-Kamianets/recipiesbook",
+      "pageLink": "",
+      "projectDescription": "Короткий опис проєкту"
+    },
+    {
+      "projectName": "Chat App",
+      "projectLink": "https://github.com/IT-Kamianets/chatapp",
+      "pageLink": "https://chatapp.itkamianets.com/",
+      "projectDescription": "Короткий опис проєкту"
+    },
+    {
+      "projectName": "Currency Converter",
+      "projectLink": "https://github.com/IT-Kamianets/currencyconverter",
+      "pageLink": "https://currencyconverter.itkamianets.com/",
+      "projectDescription": "Короткий опис проєкту"
+    }
+  ],
+  "students": [
+    {
+      "studentName": "Олександр Мрачковський",
+      "profileLink": {
+        "gitHub": "https://github.com/MrachkovskyiOleksandr",
+        "linkedIn": "https://www.linkedin.com/in/oleksandr-mrachkovskyi/",
+        "aboutPage": "https://oleksandrmrachkovskyi.itkamianets.com/",
+        "telegram": "https://t.me/mrak_ich"
+      }
+    },
+    {
+      "studentName": "Максим Сас",
+      "profileLink": {
+        "gitHub": "https://github.com/maksimkaSAS",
+        "aboutPage": "https://maksymsas.itkamianets.com/",
+        "telegram": "https://t.me/mm_sass"
+      }
+    },
+    {
+      "studentName": "Роман Столяр",
+      "profileLink": {
+        "gitHub": "https://github.com/romanstoliar",
+        "aboutPage": "https://romanstoliar.itkamianets.com/",
+        "telegram": "https://t.me/romanst_18"
+      }
+    },
+    {
+      "studentName": "Іван Козловський",
+      "profileLink": {
+        "gitHub": "https://github.com/IvanKozlovky",
+        "aboutPage": "https://ivankozlovsky.itkamianets.com/",
+        "telegram": "https://t.me/Xomyy"
+      }
+    },
+    {
+      "studentName": "Павло Іжицький",
+      "profileLink": {
+        "gitHub": "https://github.com/izhytskyi",
+        "aboutPage": "https://pavloizhytskyi.itkamianets.com/",
+        "telegram": "https://t.me/ixhxtxkxi",
+        "linkedIn": "https://www.linkedin.com/in/pavlo-izhytskyi-702469238/",
+        "instagram": "https://www.instagram.com/izhytskyi"
+      }
+    },
+    {
+      "studentName": "Максим Білоус",
+      "profileLink": {
+        "gitHub": "https://github.com/BilousMaks",
+        "aboutPage": "https://maksymbilous.itkamianets.com/"
+      }
+    },
+    {
+      "studentName": "Анна Собачинська",
+      "profileLink": {
+        "gitHub": "https://github.com/Sobachynska",
+        "aboutPage": "https://annasobachynska.itkamianets.com/",
+        "telegram": "https://t.me/a_sobachynska",
+        "linkedIn": "https://www.linkedin.com/in/annasobachynska/",
+        "instagram": "https://www.instagram.com/a.sobachynska"
+      }
+    },
+    {
+      "studentName": "Юрій Стефура",
+      "profileLink": {
+        "gitHub": "https://github.com/Stefura",
+        "aboutPage": "https://yurastefura.itkamianets.com/",
+        "telegram": "https://t.me/aruFesT"
+      }
+    },
+    {
+      "studentName": "Ростислав Лискун",
+      "profileLink": {
+        "gitHub": "https://github.com/RostislavLyskun",
+        "aboutPage": "https://rostislavliskun.itkamianets.com/"
+      }
+    },
+    {
+      "studentName": "Дмитро Коваленко",
+      "profileLink": {
+        "gitHub": "https://github.com/1357kov",
+        "aboutPage": "https://dmytrokovalenko.itkamianets.com/",
+        "telegram": "https://t.me/dmitry_sk_t"
+      }
+    },
+    {
+      "studentName": "Юля Сурженко",
+      "profileLink": {
+        "gitHub": "https://github.com/juliasurzhenko",
+        "aboutPage": "https://yuliasurzhenko.itkamianets.com/",
+        "telegram": "https://t.me/julliees",
+        "linkedIn": "https://www.linkedin.com/in/julia-surzhenko-4679bb22b/"
+      }
+    },
+    {
+      "studentName": "Владислав Волошин",
+      "profileLink": {
+        "gitHub": "https://github.com/VoloshynVl",
+        "aboutPage": "https://vladyslavvoloshyn.itkamianets.com/"
+      }
+    },
+    {
+      "studentName": "Максим Горецький",
+      "profileLink": {
+        "gitHub": "https://github.com/s1a6ks",
+        "aboutPage": "https://maksgoretsky.itkamianets.com/",
+        "telegram": "https://t.me/g0retsky"
+      }
+    },
+    {
+      "studentName": "Віктор Княгницький",
+      "profileLink": {
+        "gitHub": "https://github.com/ViktorKnyagnickiy",
+        "aboutPage": "https://viktorknyagnickiy.itkamianets.com/",
+        "telegram": "https://t.me/ccutlerr"
+      }
+    }
+  ]
+}

@@ -19,43 +19,11 @@
       <section id="projects" class="projects">
         <h2>Наші проєкти</h2>
         <div class="project-list" id="project-list">
-          
+          {% for project in projects %}
           <div>
-            <h2>TrustyConvert</h2>
+            <h2>{{project.projectName}}</h2>
           </div>
-          
-          <div>
-            <h2>Timer</h2>
-          </div>
-          
-          <div>
-            <h2>WeatherSense</h2>
-          </div>
-          
-          <div>
-            <h2>TodoList</h2>
-          </div>
-          
-          <div>
-            <h2>CalorieTracker</h2>
-          </div>
-          
-          <div>
-            <h2>HabitTracker</h2>
-          </div>
-          
-          <div>
-            <h2>RecipiesBook</h2>
-          </div>
-          
-          <div>
-            <h2>Chat App</h2>
-          </div>
-          
-          <div>
-            <h2>Currency Converter</h2>
-          </div>
-          
+          {% endfor %}
         </div>
       </section>
 
