@@ -1,10 +1,9 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
+  margin: 0;
   
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
+  padding-top: 20px;
 }
 
 header {
@@ -12,22 +11,30 @@ header {
   justify-content: center;
 }
 
-.container {
+.container {  
 }
 
 h2 {
+  font-size: 40px;
   text-align: center;
   color: #333;
   margin-bottom: 40px;
 }
 
+.students h2 {
+  color: #dfdfdf;
+}
+
 .projects,
 .students {
-  margin-bottom: 60px;
+  padding-top: 20px;
 }
 
 .project-list,
 .student-list {
+  margin: 0 auto;
+  max-width: 1200px;
+
   display: flex;
   flex-wrap: wrap;
   gap: 60px;
@@ -84,3 +91,16 @@ a:hover {
   color: #3498db;
 }
 
+.projects {
+  margin-bottom: 60px;
+
+}
+
+.students {
+  background-color: #2c3e50;
+  
+  padding-bottom: 60px;
+
+  border-radius: 8px;
+  box-shadow: 0 -8px rgba(0, 0, 0, 0.1);
+}
