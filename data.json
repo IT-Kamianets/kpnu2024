@@ -39,7 +39,7 @@
     {
       "projectName": "RecipiesBook",
       "projectLink": "https://github.com/IT-Kamianets/recipiesbook",
-      "pageLink": "",
+      "pageLink": "https://recipiesbook.itkamianets.com/",
       "projectDescription": "Короткий опис проєкту"
     },
     {
@@ -52,6 +52,18 @@
       "projectName": "Currency Converter",
       "projectLink": "https://github.com/IT-Kamianets/currencyconverter",
       "pageLink": "https://currencyconverter.itkamianets.com/",
+      "projectDescription": "Короткий опис проєкту"
+    },
+    {
+      "projectName": "Jokes",
+      "projectLink": "https://github.com/IT-Kamianets/jokes",
+      "pageLink": "https://jokes.itkamianets.com/",
+      "projectDescription": "Короткий опис проєкту"
+    },
+    {
+      "projectName": "Sleeptracker",
+      "projectLink": "https://github.com/IT-Kamianets/sleeptracker",
+      "pageLink": "https://sleeptracker.itkamianets.com/",
       "projectDescription": "Короткий опис проєкту"
     }
   ],
@@ -170,6 +182,14 @@
         "gitHub": "https://github.com/ViktorKnyagnickiy",
         "aboutPage": "https://viktorknyagnickiy.itkamianets.com/",
         "telegram": "https://t.me/ccutlerr"
+      }
+    },
+    {
+      "studentName": "Ангеліна Няньчур",
+      "profileLink": {
+        "gitHub": "https://github.com/Angelina2708",
+        "telegram": "https://t.me/aangeliona",
+        "linkedIn": "https://www.linkedin.com/in/angelina-nianchur-4a7238275"
       }
     }
   ]

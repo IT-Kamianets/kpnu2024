@@ -23,8 +23,8 @@
         <div class="project-card">
           <h3>{{project.projectName}}</h3>
           <div class="project-description">{{project.projectDescription}}</div>
-          <a href="{{project.projectLink}}">GitHub проєкту</a>
-          <a href="{{project.pageLink}}">Сайт проєкту</a>
+          {% if project.projectLink %}<a href="{{project.projectLink}}">GitHub проєкту</a>{% endif %}
+          {% if project.pageLink %}<a href="{{project.pageLink}}">Сайт проєкту</a>{% endif %}
         </div>
         {% endfor %}
       </div>
